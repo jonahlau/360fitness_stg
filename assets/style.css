@@ -1000,7 +1000,7 @@ footer .social {
 }
 
 .navbar-brand {
-	height: 110px;
+	height: 100px;
 	width: auto;
 }
 
@@ -1060,9 +1060,6 @@ footer .social {
 
 /* TRAINERS
    ========================================================================== */
-.trainers {
-	margin-bottom: 60px;
-}
 .trainer {
 	margin: 0 30px;
 	position: relative;
@@ -1113,8 +1110,8 @@ footer .social {
 	font-size: 14px;
 	font-weight: 700;
 	text-align: center;
-	top: 0;
-	right: 0;
+	top: 200px;
+	right: 200px;
 	padding-top: 27px;
 	width: 80px;
 	text-transform: uppercase;
@@ -1397,6 +1394,7 @@ footer .social {
 	max-width: 1140px;
 	margin-top: 190px;
 	margin: 230px auto 0;
+	letter-spacing: 1px;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -2287,17 +2285,37 @@ footer .social {
 .responsive-menu i {
 	padding: 4px 5px 0 0;
 }
-@media (max-width: 1200px) {
-	.slider .slide-text h2 {
+@media (min-width: 1200px) {
+	#lesson-arrowz {
 		display: none;
 	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	.trainer .trainer-class {
+		top: 150px;
+		right: 170px;
+	}
+}
+
+@media (max-width: 1200px) {
+	/*.slider .slide-text h2 {*/
+		/*display: none;*/
+	/*}*/
 	body { padding-top: 110px; }
 }
 @media (min-width: 768px) and (max-width: 992px) { }
+@media (max-width: 768px) {
+	#lesson-arrowz span {
+		color: white;
+	}
+}
+
 @media (max-width: 1300px) {
 	.slider .slide-text {
-		margin-top: 110px;
+		margin-top: 190px;
 	}
+
 	.main-slider-under {
 		margin-top: -100px;
 	}
@@ -2306,6 +2324,62 @@ footer .social {
 	}
 	body { padding-top: 110px; }
 }
+
+@media (min-width: 991px) and (max-width: 1299px) {
+	.slider .slide-text {
+		margin-top: 190px;
+	}
+	.slider .slide-text h1{
+		font-size: 45px;
+	}
+
+}
+
+@media (min-width: 850px) and (max-width: 990px) {
+	.slider .slide-text {
+		margin-top: 140px;
+	}
+	.slider .slide-text h1{
+		font-size: 45px;
+	}
+	.slider .slide-text h2{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 849px) {
+	.slider .slide-text {
+		margin-top: 120px;
+	}
+	.slider .slide-text h1{
+		font-size: 35px;
+	}
+	.slider .slide-text h2{
+		font-size: 23px;
+	}
+}
+
+@media (max-width: 639px) and (min-width: 496px){
+	.slider .slide-text {
+		margin-top: 100px;
+	}
+	.slider .slide-text h1{
+		font-size: 25px;
+	}
+	.slider .slide-text h2{
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 495px){
+	.slider .slide-text {
+		display: none;
+	}
+	.navbar-brand {
+
+	}
+}
+
 @media (max-width: 991px) {
 	body { padding-top: 110px; }
 	.place-info .place-info-box {
@@ -2386,9 +2460,9 @@ footer .social {
 	.responsive-menu {
 		display: block;
 	}
-	.slide-text {
-		display: none;
-	}
+	/*.slide-text {*/
+		/*display: none;*/
+	/*}*/
 	.slider-info h3 {
 		margin-bottom: 5px;
 	}
@@ -3719,7 +3793,7 @@ footer .social {
 }
 
 .transparent-container {
-	background-color: rgba(245, 130, 32, 0.8);
+	background-color: rgba(245, 130, 32, 0.7);
 	padding: 1.5%;
 }
 
@@ -3756,8 +3830,8 @@ footer {
 .classes-description {
 	color: #fff;
 	font-size: 13px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .no-border {
@@ -3863,4 +3937,8 @@ footer {
 	border: 0;
 	font-size: 23px;
 	color: black;
+}
+
+.canvasjs-chart-credit {
+	display: none;
 }
