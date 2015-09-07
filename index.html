@@ -63,12 +63,12 @@
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav navbar-right" style="padding-top: 25px;">
-                            <li><a data-scroll class="navbar-item" href="#home">HOME</a></li>
+                            <li><a data-scroll class="navbar-item" href="#what-we-do">THE 360</a></li>
                             <li><a data-scroll class="navbar-item" href="#classes">CLASSES</a></li>
                             <li><a data-scroll class="navbar-item" href="#trainers">TRAINERS</a></li>
-                            <li><a data-scroll class="navbar-item" href="/360">THE 360</a></li>
                             <li><a data-scroll class="navbar-item" href="#contact">CONTACT</a></li>
                             <li><a href="https://www.facebook.com/pages/360-Fitness/153667008000785"><i class="fa fa-facebook" style="font-size: 18px;"></i></a></li>
+                            <li><a href="http://instagram.com/hk_360fitness"><i class="fa fa-instagram" style="font-size: 18px;"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -81,45 +81,52 @@
 <div class="content">
     <div class="loader" style="background: url(/360fitness_stg/assets/ajax-loader.gif) 50% 50% no-repeat #fff"></div>
     <!-- SLIDER -->
-<div class="slider" data-tesla-plugin="slider" data-tesla-item=".slide" data-tesla-next=".slide-right" data-tesla-prev=".slide-left" data-tesla-container=".slide-wrapper">
+<div id="hero-slider" class="slider" data-tesla-plugin="slider" data-tesla-item=".slide" data-tesla-next=".slide-right" data-tesla-prev=".slide-left" data-tesla-container=".slide-wrapper">
     <ul class="slider-arrows" style="z-index: 991;">
-        <li class="slide-left"><i class="fa fa-chevron-left"></i></li>
-        <li class="slide-right"><i class="fa fa-chevron-right"></i></li>
+        <li id="hero-slider-slide-left" class="slide-left"><i class="fa fa-chevron-left"></i></li>
+        <li id="hero-slider-slide-right" class="slide-right"><i class="fa fa-chevron-right"></i></li>
     </ul>
 
     <ul class="slide-wrapper">
         
+            
             <li class="slide">
                 <div class="slide-text" style="z-index: 990">
-                    <h1>UNLEASH YOUR POTENTIAL WITH THE <span>360 TRAINING SYSTEM</span></h1>
+                    <h1>LIVE <span>HEALTHIER</span></h1>
                     <!--<a href="#" class="button-1 d-bg-c d-text-c-h d-border-c">read more</a>-->
                 </div>
-                <img src="/360fitness_stg/assets/slider_kyle_reduced.jpg">
+                <img src="/360fitness_stg/assets/physio-hero.jpg">
             </li>
+            
         
+            
             <li class="slide">
                 <div class="slide-text" style="z-index: 990">
-                    <h1>LIVE <span>HEALTHIER</span</h1>
-                    <!--<a href="#" class="button-1 d-bg-c d-text-c-h d-border-c">read more</a>-->
-                </div>
-                <img src="/360fitness_stg/assets/slider_panorama_reduced.jpg">
-            </li>
-        
-            <li class="slide">
-                <div class="slide-text" style="z-index: 990">
-                    <h1>LIVE <span>BETTER</span></h1>
+                    <h1>LIVE <span>BETTER</span</h1>
                     <!--<a href="#" class="button-1 d-bg-c d-text-c-h d-border-c">read more</a>-->
                 </div>
                 <img src="/360fitness_stg/assets/wilson-trx.jpg">
             </li>
+            
         
+            
             <li class="slide">
                 <div class="slide-text" style="z-index: 990">
                     <h1>LIVE <span>STRONGER</span></h1>
                     <!--<a href="#" class="button-1 d-bg-c d-text-c-h d-border-c">read more</a>-->
                 </div>
-                <img src="/360fitness_stg/assets/calson_physio_reduced.jpg">
+                <img src="/360fitness_stg/assets/slider_kyle_reduced.jpg">
             </li>
+            
+        
+            
+            <li class="slide">
+                <div class="slide-text last-slider">
+                    <h1>UNLEASH YOUR POTENTIAL WITH THE <span>360 TRAINING SYSTEM</span></h1>
+                </div>
+                <img src="/360fitness_stg/assets/slider_panorama_reduced.jpg">
+            </li>
+            
         
     </ul>
 
@@ -137,41 +144,135 @@
 </div>
 <!-- SLIDER -->
 
-<!--ICON BAR-->
-<div>
-    <div class="transparent-container" style="padding:0">
-        <div class="place-info d-bg-c container" style="background-color: transparent !important;">
-            <div class="row">
-                <div class="col-md-12" style="text-align: center;"><h3 style="font-weight:700; font-size: 30px;">WHAT WE DO</h3></div>
-                <p>Our 360 Training System is a program tailored to your needs.  We combine Physiotherapy, Massage Therapy and Personal Training to help you achieve your fitness goals.  Click on each segment below to find out more!</p>
+<!-- SEPARATOR INFO -->
+<div class="separator-info" id="what-we-do" style="background-color: #EAE8E8; padding-bottom: 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="d-border-c">WHAT WE DO</h3>
             </div>
-            <div class="row">
-                <div class="col-md-12" id="chart-container" style="height: 35%; padding-top: 20px; padding-left:0; padding-right:0;"></div>
+            <div class="col-md-7">
+                <p>Our 360 Training System is a program tailored to your needs. We combine Physiotherapy, Massage Therapy and Personal Training to help you achieve your fitness goals.</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
+<!-- SEPARATOR INFO -->
+
+<!--ICON BAR-->
+<div class="transparent-container" style="padding:0">
+    <div class="place-info d-bg-c container" style="background-color: transparent !important;">
+        <!--<div class="row">-->
+            <!--<div class="col-md-12" id="chart-container" style="height: 35%; padding-top: 20px; padding-left:0; padding-right:0;"></div>-->
+        <!--</div>-->
+            <div class="circle-text-wrapper">
+                <div class="row" style="padding-top:20px">
+                    <div class="col-md-6 col-sm-6 col-xs-6 circle-text-top fitass"><p style="cursor: hand;" data-toggle="modal" data-target="#fitness-assessment"><img src="/360fitness_stg/assets/heartbeat-icon.png"> FITNESS ASSESSMENT</p></div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 circle-text-top"><p style="cursor: hand;" data-toggle="modal" data-target="#personal-training"><img src="/360fitness_stg/assets/dumbell-icon.png"> PERSONAL TRAINING</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 circle-text-bottom"><p style="cursor: hand;" data-toggle="modal" data-target="#physiotherapy"><img src="/360fitness_stg/assets/heart-icon.png"> PHYSIOTHERAPY</p></div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 circle-text-bottom"><p style="cursor: hand;" data-toggle="modal" data-target="#recovery"><img src="/360fitness_stg/assets/improve-icon.png"> RECOVERY</p></div>
+                </div>
+            </div>
+    </div>
+</div>
+<!--ICON BAR-->
+
+<!-- WHAT WE DO MODAL TEMPLATES -->
+
+<div class="modal fade" id="personal-training" tabindex="-1" role="dialog" aria-labelledby="trainerBio" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding:2%;">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <br>
+                <br>
+                <div style="background: url('/360fitness_stg/assets/wilson_rope.jpg') no-repeat; background-size:cover; height: 20%; background-position:50% 50%; position: relative;">
+                    <h3 style="position: absolute; bottom: 3%; right: 3%; color: #F58220; font-weight: bold;">PERSONAL TRAINING</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <br>
+                        <div><h4 style="text-transform: none;">Strong mind. Strong body.</h4></div>
+                        <h5>A stronger body also make you a stronger mind. Our experienced trainer will unleash your potential and help you to go beyond your comfort zone.  We do train clients in varieties with traditional weight training, body work training, Pilates, Muay Thai or even breathing  etc. We aim to awaken every single muscles in your body, bring a better you in term of physique, posture, mobility, strength, stamina and function.</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!--ICON BAR-->
+
+<div class="modal fade" id="physiotherapy" tabindex="-1" role="dialog" aria-labelledby="trainerBio" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding:2%;">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <br>
+                <br>
+                <div style="background: url('/360fitness_stg/assets/physiotherapy.jpg') no-repeat; background-size:cover; height: 20%; background-position:50% 50%; position: relative;">
+                    <h3 style="position: absolute; bottom: 3%; right: 3%; color: #F58220; font-weight: bold;">PHYSIOTHERAPY</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <br>
+                        <h4 style="text-transform: none;">Prehabilitation - Prevention is better than Cure</h4>
+                        <h5>We can simply define it as a personalised training regime with sport specific exercise to prevent or minimise the risk of injury. Our physiotherapist and coach first analyse ones  posture, joint alignment, flexibility, muscle control, biomechanics, core stability and movement patterns, then evaluate the risks of the sport itself. It in turn comes up with Program</h5>
+                        <h4 style="text-transform: none;">Physiotherapy - Restoration of your bodily function</h4>
+                        <h5>We offer one-on-one physiotherapy service for musculoskeletal disorders from spine to all peripheral joint, sport and post surgical rehabilitation as well as chest physiotherapy. Our therapist does not reply on electrotherapy modalities, instead endorses a hands-on approach to treatment like Gausha, cupping and other myofascial release methods. We focus on symptomatic relief with restoration of the proper biomechanics of your body. Your physiotherapist will prescribe corrective exercises on postural reeducation, joint mobility and self help soft tissue release as your home exercise. All these prepare you for the next phase of rehabilitation.</h5>
+                        <h4 style="text-transform: none;">Active Rehabilitation- Back to the Field with Better Performance</h4>
+                        <h5>This is gym-based program tailored for those clients no longer requiring acute care treatment but have ongoing physical complaints with respect to their original injuries. Exercise, education and evaluation are the foundation of this program. Our physiotherapist will come alongside with you and work closely with your or our trainer to design, evaluate and revise your training protocol. It aims to optimize your body's performance in the specific activities you participate in and to achieve more than you thought you were capable of.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="recovery" tabindex="-1" role="dialog" aria-labelledby="trainerBio" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding:2%;">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <br>
+                <br>
+                <div style="background: url('/360fitness_stg/assets/recovery.jpg') no-repeat; background-size:cover; height: 20%; background-position:50% 50%; position: relative;">
+                    <h3 style="position: absolute; bottom: 3%; right: 3%; color: #F58220; font-weight: bold;">RECOVERY</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <br>
+                        <h4 style="text-transform: none;">Soft Tissue Release and Sport Massage</h4>
+                        <h5>If you are challenging yourself hard in your workout, you are likely experiencing muscle soreness and tightness after the training. Massage and other soft tissue release method effectively enhance circulation to muscles, which is ideal for post workout recovery</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- WHAT WE DO MODAL TEMPLATES -->
 
 <!--CLASSES SECTION-->
 <div class="separator-info" id="classes">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3 class="d-border-c">Our Classes</h3>
             </div>
             <div class="col-md-7">
                 <p>We are certified in some of the most cutting-edge training systems currently out on the market. Using both traditional training methods in combination with these newer techniques, we will help you find the quickest way to attain your fitness goals.</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </div>
 
-<div class="white-bg lessons trainers" data-tesla-plugin="carousel" data-tesla-container=".tesla-carousel-items" data-tesla-item=">div" data-tesla-rotate="true" data-tesla-autoplay="false" data-tesla-hide-effect="false">
+<div id="class-slider" class="white-bg lessons trainers" data-tesla-plugin="carousel" data-tesla-container=".tesla-carousel-items" data-tesla-item=">div" data-tesla-rotate="false" data-tesla-autoplay="false" data-tesla-hide-effect="false">
     <div class="lessons-arrows" id="lesson-arrowz">
-        <span class="next"><i class="fa fa-chevron-right"></i></span>
-        <span class="prev disabled"><i class="fa fa-chevron-left"></i></span>
+        <span class="next" id="class-slider-slide-right"><i class="fa fa-chevron-right"></i></span>
+        <span class="prev disabled" id="class-slider-slide-left"><i class="fa fa-chevron-left"></i></span>
     </div>
     <div class="container">
         <div class="row trainers tesla-carousel-items" style="padding-top:0;">
@@ -218,9 +319,9 @@
 <div class="parallax parallax-4" style="background: url(/360fitness_stg/assets/slide-2_reduced.jpg) top fixed no-repeat; background-size: cover;">
     <div class="black-bg padding" style="padding: 30px;">
         <div class="container">
-            <h2>NEW CARDIO CLASSES THIS SUMMER. PAY NOW AND GET 25% DISCOUNT</h2>
+            <h2 class="quote-text" style="text-transform: none; font-size: 21px;">“Do not let what you cannot do interfere with <br> what you can do.”</h2>
             <br/>
-            <a href="#" class="button-1 d-bg-c d-text-c-h d-border-c bold">GET IN TOUCH</a>
+            <h3 style="font-size: 21px;"><i>- John Wooden</i></h3>
         </div>
     </div>
 </div>
@@ -231,13 +332,13 @@
 <div class="separator-info" id="trainers">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <h3 class="d-border-c">Our trainers</h3>
+            <div class="col-md-4">
+                <h3 class="d-border-c our-trainer">Our trainers</h3>
             </div>
             <div class="col-md-7">
-                <p>We're a of internationally certified trainers dedicated to helping you achieve a well-balanced and healthy physique and lifestyle.  <br><br>We strive to communicate with our clients and understand their goals from Day One - something we believe to be essential for building a solid foundation for the future.</p>
+                <p>We're a team of internationally certified trainers dedicated to helping you achieve a well-balanced and healthy physique and lifestyle.  <br><br>We strive to communicate with our clients and understand their goals from Day One - something we believe to be essential for building a solid foundation for the future.</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </div>
@@ -245,10 +346,10 @@
 
 
 <!-- TRAINERS -->
-<div class="lessons trainers" data-tesla-plugin="carousel" data-tesla-container=".tesla-carousel-items" data-tesla-item=">div" data-tesla-rotate="true" data-tesla-autoplay="false" data-tesla-hide-effect="false">
+<div id="trainer-slider" class="lessons trainers" data-tesla-plugin="carousel" data-tesla-container=".tesla-carousel-items" data-tesla-item=">div" data-tesla-rotate="false" data-tesla-autoplay="false" data-tesla-hide-effect="false">
     <div class="lessons-arrows">
-        <span class="next"><i class="fa fa-chevron-right"></i></span>
-        <span class="prev disabled"><i class="fa fa-chevron-left"></i></span>
+        <span class="next trainer-arrow" style="padding-top: 0" id="trainer-slider-swipe-right"><i class="fa fa-chevron-right"></i></span>
+        <span class="prev disabled trainer-arrow" style="padding-top: 0" id="trainer-slider-swipe-left"><i class="fa fa-chevron-left"></i></span>
     </div>
     <div class="container">
         <div class="row tesla-carousel-items">
@@ -259,18 +360,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">Fitness</div>
                         <a href="" data-toggle="modal" data-target="#wilson">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Wilson Tam</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Functional Movement Screen (FMS) Certified Exercise Professional</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> More than 10 years' experience</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Wilson Tam</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Functional Movement Screen (FMS) Certified Exercise Professional</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> More than 10 years' experience</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/wilson_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Wilson Tam</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/wilson_prof.jpg">
                     </div>
                 </div>
 
@@ -282,18 +385,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">Fitness</div>
                         <a href="" data-toggle="modal" data-target="#kyle">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Kyle Cheung</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> 2013 Champion (70kg division) of the Hong Kong Federation of Bodybuilding & Fitness body building competition.</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Personal Trainer (NASM)</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Kyle Cheung</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> 2013 Champion (70kg division) of the Hong Kong Federation of Bodybuilding & Fitness body building competition.</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Personal Trainer (NASM)</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/kyle_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Kyle Cheung</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/kyle_prof.jpg">
                     </div>
                 </div>
 
@@ -305,18 +410,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">Physio</div>
                         <a href="" data-toggle="modal" data-target="#calson">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Calson Leung</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> MSc. Healthcare (Physiotherapy)</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Movnat Certified Trainer (Level 1)</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Calson Leung</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> MSc. Healthcare (Physiotherapy)</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Movnat Certified Trainer (Level 1)</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/calson_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Calson Leung</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/calson_prof.jpg">
                     </div>
                 </div>
 
@@ -328,18 +435,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">Fitness</div>
                         <a href="" data-toggle="modal" data-target="#elaine">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Elaine To</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified personal trainer by National Academy of Sports Medicine, Asian Academy for Sports & Fitness Professionals and PTA Global</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> More than 12 years' experience</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Elaine To</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified personal trainer by National Academy of Sports Medicine, Asian Academy for Sports & Fitness Professionals and PTA Global</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> More than 12 years' experience</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/elaine_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Elaine To</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/elaine_prof.jpg">
                     </div>
                 </div>
 
@@ -351,18 +460,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">MMA</div>
                         <a href="" data-toggle="modal" data-target="#henry">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Henry Tong</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Level one Muay Thai Coach Hong Kong Muay Thai Association</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Over 5 years' experience</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Henry Tong</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Level one Muay Thai Coach Hong Kong Muay Thai Association</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Over 5 years' experience</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/henry_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Henry Tong</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/henry_prof.jpg">
                     </div>
                 </div>
 
@@ -374,18 +485,20 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c">Fitness</div>
                         <a href="" data-toggle="modal" data-target="#cindy">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Cindy Lee</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Personal Trainer by National Academy of Sports Medicine</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified NLP Trainer (ABNLP)</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Cindy Lee</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified Personal Trainer by National Academy of Sports Medicine</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> Certified NLP Trainer (ABNLP)</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/cindy_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Cindy Lee</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/cindy_prof.jpg">
                     </div>
                 </div>
 
@@ -397,18 +510,21 @@
                     <div class="trainer">
                         <div class="trainer-class d-border-c d-text-c" style="padding-top: 20px">Sports<br>Massage</div>
                         <a href="" data-toggle="modal" data-target="#Anthony">
-                            <div class="trainer-hover">
-                                <h5 class="d-text-c">Anthony Chang</h5>
-                                <ul style="text-align:center">
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> ITEC Diploma in Holistic Massage</li>
-                                    
-                                    <li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> ITEC Diploma in Sports Massage</li>
-                                    
-                                </ul>
-                            </div>
+                            <!--<div class="trainer-hover">-->
+                                <!--<h5 class="d-text-c">Anthony Chong</h5>-->
+                                <!--<ul style="text-align:center">-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> ITEC Diploma in Holistic Massage</li>-->
+                                    <!---->
+                                    <!--<li style="font-size: 11px; padding: 0 10px;"><i class="d-text-c fa fa-star"></i> ITEC Diploma in Sports Massage</li>-->
+                                    <!---->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <img src="/360fitness_stg/assets/anthony_prof.jpg">
+
+                            <div style="text-align: center;"><br><h4>Anthony Chong</h4></div>
                         </a>
-                        <img src="/360fitness_stg/assets/temp_avatar.jpg">
+
                     </div>
                 </div>
                 
@@ -522,18 +638,18 @@
                         <img class="trainer-profile-pic" src="/360fitness_stg/assets/calson_prof.jpg">
                     </div>
                     <div class="col-md-8 col-sm-7 col-xs-12 trainer-profile-contentbody">
-                        <p>Calson is a registered physiotherapist specializes in musculoskeletal disorders and rehabilitative training with over 15 years of experience in private clinic and fitness industry.</p>
+                        <p>Calson (MSc., BSc.) is a registered physiotherapist specializes in musculoskeletal disorders and rehabilitative training with over 15 years of experience in private clinic and fitness industry.</p>
 
                         
-                        <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">MSc. Healthcare (Physiotherapy)</span></p>
-                        
-                        <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">BSc. Physiotherapy</span></p>
+                        <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">Registered physiotherapist</span></p>
                         
                         <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">Certified Strength & Conditioning Specialist (NSCA-CSCS)</span></p>
                         
                         <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">Functional Movement Screen (FMS) Certified Exercise Professional</span></p>
                         
                         <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">Movnat Certified Trainer (Level 1)</span></p>
+                        
+                        <p class="trainer-profile-wrapper"><i class="fa fa-star table-cell star-bullet"></i><span class="table-cell">Tel: 6980-8787</span></p>
                         
 
                     </div>
@@ -690,14 +806,14 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <h3 class="d-border-c" style="border-right: 0; border-left: #f9690e solid 6px; padding-left: 20px; text-align: left;">Anthony Chang</h3>
+                                <h3 class="d-border-c" style="border-right: 0; border-left: #f9690e solid 6px; padding-left: 20px; text-align: left;">Anthony Chong</h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-5 col-xs-12 trainer-profile-pic-wrapper">
-                        <img class="trainer-profile-pic" src="/360fitness_stg/assets/temp_avatar.jpg">
+                        <img class="trainer-profile-pic" src="/360fitness_stg/assets/anthony_prof.jpg">
                     </div>
                     <div class="col-md-8 col-sm-7 col-xs-12 trainer-profile-contentbody">
                         <p>Specialist in sports massage and manual injury therapy with extensive experience in treating clients from sporting teams including the Australian Rugby team Wallabies and The New Zealand All Blacks during the Bledisloe Cup in 2010, Amateur Hong Kong Football team members, Hong Kong Junior Cricket team members, martial arts teams and amateur free fight competitions.</p>
@@ -730,29 +846,13 @@
 
 <!-- TESTIMONIALS -->
 <div class="parallax parallax-5 testimonials" style="background: url(/360fitness_stg/assets/TRX-Rip-Trainer-5.jpg) top center no-repeat fixed; background-size: cover;">
-    <div class="black-bg padding">
+    <div class="black-bg padding testimonial-wrap">
         <div class="container">
             <div class="testimonials-icon"><i class="d-bg-c fa fa-quote-right"></i></div>
             <div class="slider" data-tesla-plugin="slider" data-tesla-item=".slide" data-tesla-next=".slide-right" data-tesla-prev=".slide-left" data-tesla-container=".slide-wrapper">
-                <ul class="slide-wrapper">
-                    <li class="slide">
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heartle heart. I am alone, and feel the charm of existence in this spot, which was created for the I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                        <h5>John Doe<span class="d-text-c">YOGA, 8 months</span></h5>
-                    </li>
-                    <li class="slide">
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                        <h5>Richardo Rino<span class="d-text-c">BOXING, 1 year</span></h5>
-                    </li>
-                    <li class="slide">
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                        <h5>Alexa Maxewell<span class="d-text-c">PILATES, 11 months</span></h5>
-                    </li>
-                </ul>
-                <ul class="counting" data-tesla-plugin="bullets">
-                    <li class=""></li>
-                    <li class=""></li>
-                    <li class=""></li>
-                </ul>
+                        <p>360 Fitness devised and delivered a course of treatment for my knee pain.  In addition to localised treatment of the knee, he also designed a tailored plan to gradually improve the strength in my thighs. Communication was always a top priority. Through my therapist's patience and thorough explanation, I received a great deal of knowledge about my own physiology.  This has been instrumental in helping me prevent further injuries.
+                        </p>
+                        <h5>Mr. Tuen Kit Nam<span class="d-text-c">Physiotherapy patient</span></h5>
             </div>
         </div>
     </div>
@@ -779,16 +879,25 @@
 <div class="row" style="padding: 30px 0; margin-right: 0 !important;">
     <div class="container">
         <div class="col-md-6">
-            <div class="trainer-profile-wrapper"><span class="table-cell"><h4>HAVE A QUESTION?</h4> <h5>Feel free to leave us a message by clicking on the tab below on the right. We'll get back to you as soon as we can.</h5></span></div>
+            <div class="trainer-profile-wrapper"><span class="table-cell"><h4>HAVE A QUESTION?</h4> <h5>Feel free to leave us a message by clicking on the button below. We'll get back to you as soon as we can.</h5></span></div>
+            <br>
+            <h4>ADDRESS</h4>
+            <div class="trainer-profile-wrapper"><i class="fa fa-building table-cell star-bullet" style="vertical-align: top; padding-top: 8px;"></i><span class="table-cell">5/F Wing Yee Commercial Building, 5 Wing Kut Street, Central</span></div>
+            <div class="trainer-profile-wrapper"><i class="fa fa-phone table-cell star-bullet"></i> <span class="table-cell">+852 3488 8248</span></div>
             <br>
         </div>
         <div class="col-md-6">
-            <h4>ADDRESS</h4>
-            <div class="trainer-profile-wrapper"><i class="fa fa-building table-cell star-bullet" style="vertical-align: top; padding-top: 8px;"></i><span class="table-cell">5/F Wing Yee Commercial Building, 5 Wing Kut Street, Central</span></div>
+            <h4>GETTING HERE</h4>
+            <div class="trainer-profile-wrapper"><h5><strong>By MTR:</strong> Sheung Wan Exit E2</h5></span></div>
+            <div class="trainer-profile-wrapper"><h5><strong>By Tram:</strong> Get off at Gilman Street station</h5></span></div>
             <br>
-            <div class="trainer-profile-wrapper"><i class="fa fa-calendar table-cell star-bullet"></i><span class="table-cell">Mon - Sat 9:00 am - 10:00 pm</span></div>
-            <br>
-            <div class="trainer-profile-wrapper"><i class="fa fa-phone table-cell star-bullet"></i> <span class="table-cell">+852 3488 8248</span></div>
+            <h4>PARKING</h4>
+            <div class="trainer-profile-wrapper"><h5>Parking is available nearby at:</h5></span></div>
+            <ul>
+                <li class="parking-bullet">The Center <a href="https://www.google.com.hk/maps/place/The+Center/@22.2846202,114.1547347,17z/data=!3m1!4b1!4m2!3m1!1s0x3404007cbe420509:0x46f1ddac9a1e350f?hl=en">(map)</a></li>
+                <li class="parking-bullet">COSCO Center <a href="https://www.google.com.hk/maps/place/Cosco+Tower,+33+Wing+Lok+St,+Sheung+Wan/@22.2856011,114.1530034,17z/data=!3m1!4b1!4m2!3m1!1s0x3404007cf63ce829:0x73af0b49c69dc44?hl=en">(map)</a></li>
+                <li class="parking-bullet">Rumsey Street Car Park <a href="https://www.google.com.hk/maps/place/Rumsey+Street+Multi+Storey+Car+Park,+2+Rumsey+St,+Sheung+Wan/@22.2874231,114.153324,17z/data=!3m1!4b1!4m2!3m1!1s0x3404007d0e96484f:0xfc2eea3da6250426?hl=en">(map)</a></li>
+            </ul>
             <br>
         </div>
     </div>
@@ -804,6 +913,7 @@
             <div class="col-md-6">
                 <ul class="social">
                     <li><a href="https://www.facebook.com/pages/360-Fitness/153667008000785"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://instagram.com/hk_360fitness"><i class="fa fa-instagram"></i></a></li>
                     <!--<li><a href="#"><i class="fa fa-medium"></i></a></li>-->
                 </ul>
             </div>
@@ -827,35 +937,51 @@
 <script src="/360fitness_stg/assets/plugins.js"></script>
 <script src="/360fitness_stg/assets/smooth-scroll.js"></script>
 <script src="/360fitness_stg/assets/headroom.min.js"></script>
+<script src="/360fitness_stg/assets/hammer.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" ></script>
 
 <script>
-
     $(window).load(function() {
         $(".loader").fadeOut("slow");
 
-        var chart = new CanvasJS.Chart("chart-container",
-                {
-                    backgroundColor: "transparent",
-                    animationEnabled: false,
-                    data: [
-                        {
-                            indexLabelLineColor: "transparent",
-                            indexLabelFontColor: "#FFFFFF",
-                            indexLabelFontFamily: "Open Sans",
-                            indexLabelFontSize: 15,
-                            type: "doughnut",
-                            dataPoints: [
-                                { y: 25, indexLabel: "PROGRAM DESIGN", toolTipContent: "Our experienced trainers will carefully design a program <br>specifically catered to meet your goals, <br>and most importantly fun and injury-free!" },
-                                { y: 25, indexLabel: "PERSONAL TRAINING", toolTipContent: "A stronger body also make you a stronger mind. <br>Our experienced trainer will unleash your potential <br>and help you to go beyond your comfort zone." },
-                                { y: 25, indexLabel: "FITNESS ASSESSMENT", toolTipContent: "We make a detailed physical assessment using the FMS&trade; System <br>before you begin any program to devise a program best suited <br> to you and avoid potential injuries." },
-                                { y: 25, indexLabel: "REHABILITATION", toolTipContent: "Our certified physios and sports massage therapists <br>are here to help you recover from injuries." }
-                            ]
-                        }
-                    ]
-                });
+        var heroHammer = new Hammer(document.getElementById('hero-slider'));
+        var heroHammerSlideLeft = document.getElementById('hero-slider-slide-right');
+        var heroHammerSlideRight = document.getElementById('hero-slider-slide-left');
 
-        chart.render();
+        heroHammer.on('swipeleft', function(event) {
+            heroHammerSlideLeft.click();
+        });
+
+        heroHammer.on('swiperight', function(e) {
+            heroHammerSlideRight.click();
+        });
+
+        var classHammer = new Hammer(document.getElementById('class-slider'));
+        var classHammerSlideLeft = document.getElementById('class-slider-slide-right');
+        var classHammerSlideRight = document.getElementById('class-slider-slide-left');
+
+        classHammer.on('swipeleft', function() {
+            classHammerSlideLeft.click();
+        });
+
+        classHammer.on('swiperight', function() {
+            classHammerSlideRight.click();
+        });
+
+
+        var trainerHammer = new Hammer(document.getElementById('trainer-slider'));
+        var trainerHammerSlideLeft = document.getElementById('trainer-slider-swipe-right');
+        var trainerHammerSlideRight = document.getElementById('trainer-slider-swipe-left');
+
+        trainerHammer.on('swipeleft', function() {
+            trainerHammerSlideLeft.click();
+        });
+
+        trainerHammer.on('swiperight', function() {
+            trainerHammerSlideRight.click();
+        });
+
     });
 
     smoothScroll.init();

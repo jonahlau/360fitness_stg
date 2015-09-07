@@ -1021,8 +1021,7 @@ footer .social {
 	text-transform: uppercase;
 	font-size: 14px;
 	cursor: pointer;
-	font-weight: 700
-	color:
+	font-weight: 700;
 }
 
 /* APPLICATION
@@ -2373,10 +2372,14 @@ footer .social {
 
 @media (max-width: 495px){
 	.slider .slide-text {
-		display: none;
+		margin-top: 60px;
 	}
-	.navbar-brand {
 
+	.slider .slide-text h1 {
+		font-size: 22px;
+	}
+	.slider .slide-text h2 {
+		font-size: 20px;
 	}
 }
 
@@ -3793,7 +3796,7 @@ footer .social {
 }
 
 .transparent-container {
-	background-color: rgba(245, 130, 32, 0.7);
+	background-color: #EAE8E8;
 	padding: 1.5%;
 }
 
@@ -3921,6 +3924,10 @@ footer {
 	.trainer-profile-pic {
 		max-width: 50%;
 	}
+
+	.circle-text-bottom {
+		padding-top: 70px;
+	}
 }
 
 .loader {
@@ -3931,6 +3938,92 @@ footer {
 	height: 100%;
 	z-index: 999999;
 }
+
+.circle-text-top {
+	text-align: center;
+	height: 100px;
+	font-weight: bold;
+	color: #464364;
+	margin-top: -15px
+}
+
+.circle-text-top img {
+	width: 30px;
+}
+
+.circle-text-bottom img {
+	width: 25px;
+}
+
+.circle-text-bottom {
+	text-align: center;
+	height: 100px;
+	padding-top: 80px;
+	font-weight: bold;
+	color: #464364;
+	display: table;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 15px;
+}
+
+.circle-text-wrapper {
+	height: 250px;
+	background: url(/360fitness_stg/assets/circle.png) center no-repeat;
+}
+
+@media (max-width: 650px) {
+	.circle-text-wrapper {
+		background: url(/360fitness_stg/assets/circle_small.png) center no-repeat;
+	}
+	.circle-text-top {
+		font-size: 11px;
+	}
+	.circle-text-bottom {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 430px) {
+	.fitass {
+		text-align: left;
+	}
+}
+
+@media (min-width: 993px) {
+	.our-trainer {
+		height: 100px;
+		padding-top: 25px !important;
+	}
+}
+
+.parking-bullet {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.testimonial-wrap {
+	height: 75%;
+}
+
+@media (max-width: 495px) {
+	.testimonial-wrap {
+		height: 660px;
+	}
+
+	.last-slider h1 {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.trainer-arrow {
+    	display: none;
+    }
+}
+
+
+
 /*=========BOOTSTRAP NAVBAR OVERRIDE=============*/
 
 .navbar-toggle {
