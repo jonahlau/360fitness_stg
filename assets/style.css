@@ -4002,10 +4002,6 @@ footer {
 	list-style-position: inside;
 }
 
-.testimonial-wrap {
-	height: 75%;
-}
-
 @media (max-width: 495px) {
 	.testimonial-wrap {
 		height: 660px;
@@ -4022,6 +4018,15 @@ footer {
     }
 }
 
+@media (max-width: 800px) {
+	#featured-lesson-right {
+    	display: none;
+    }
+    #featured-lesson-left {
+    	display: none;
+    }
+}
+
 
 
 /*=========BOOTSTRAP NAVBAR OVERRIDE=============*/
@@ -4034,4 +4039,8 @@ footer {
 
 .canvasjs-chart-credit {
 	display: none;
+}
+
+.navbar-brand {
+	width: 250px;
 }
